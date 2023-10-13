@@ -14,11 +14,100 @@
 
 <body>
   <header>
-    <!-- place navbar here (You can add Bootstrap Navbar here)-->
-    
+    <!-- place navbar here -->
+  <!-- **** NEED ADD RESPONSIVE TO NAV ****-->
+    <!-- Container for Navbar-->
+    <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/Index.html">Drip City</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/Pages/registration.html">Sign Up
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/login.html">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/products.html">Drip</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/checkout.html">Checkout</a>
+            </li>
+            <li class="nav-item dropdown">
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <h1>Checkout</h1>
+      
+      <form action="process_checkout.php" method="POST">
+          <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" name="fullName" required>
+          </div>
+          <div class="mb-3">
+              <label for="address" class="form-label">Shipping Address</label>
+              <textarea class="form-control" id="address" name="address" required></textarea>
+          </div>
+          <div class="mb-3">
+              <label for="paymentMethod" class="form-label">Payment Method</label>
+              <select class="form-select" id="paymentMethod" name="paymentMethod" required>
+                  <option value="credit">Credit Card</option>
+                  <option value="paypal">PayPal</option>
+                  <!-- Add more payment options as needed -->
+              </select>
+          </div>
+
+            <!-- HTML Table for Cart Items -->
+            <h2>Cart Items</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product/Service</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample data for cart items (you can loop through actual items) -->
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$19.99</td>
+                        <td>2</td>
+                        <td>$39.98</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$29.99</td>
+                        <td>1</td>
+                        <td>$29.99</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button type="submit" class="btn btn-primary">Place Order</button>
+        </form>
+    </div>
+
+
   </main>
-
-
+  
   <footer>
     <!-- place footer here -->
   </footer>
@@ -27,7 +116,4 @@
 
 </body>
 
-<footer>
-  <!-- Footer content -->
-</footer>
 </html>
