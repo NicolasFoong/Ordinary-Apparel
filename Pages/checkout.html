@@ -31,10 +31,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Pages/login.html">Account</a>
+              <a class="nav-link" href="/Pages/login.html">Sign In</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Pages/products.html">Drip</a>
+              <a class="nav-link" href="/Pages/products.html">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Pages/checkout.html">Checkout</a>
@@ -52,9 +52,9 @@
     </nav>
   </header>
   <main>
-    <div class="container mt-5">
-      <h1>Checkout</h1>
-      
+    <section id="wheel-card-row1" class="container py-5 my-5">
+      <h1 class="text-center fs-3"><strong>Checkout</strong></h1>
+      <hr>      
       <form action="process_checkout.php" method="POST">
           <div class="mb-3">
               <label for="fullName" class="form-label">Full Name</label>
@@ -71,7 +71,6 @@
                   <option value="paypal">PayPal</option>
                   <!-- Add more payment options as needed -->
               </select>
-          </div>
 
             <!-- HTML Table for Cart Items -->
             <h2>Cart Items</h2>
