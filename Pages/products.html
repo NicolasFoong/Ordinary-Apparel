@@ -25,14 +25,16 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav m-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="/Pages/registration.html">Sign Up
-                  <span class="visually-hidden">(current)</span>
+              <li class="nav-item dropdown">
+                <a class="nav-link active-nav-custom dropdown-toggle nav-link-custom" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Account
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Pages/login.html">Sign In</a>
-              </li>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/Pages/login.html">Sign In</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/Pages/registration.html">Sign Up</a></li>
+                </ul>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" href="/Pages/products.html">Gallery</a>
               </li>
