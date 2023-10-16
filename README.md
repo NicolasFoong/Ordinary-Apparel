@@ -20,20 +20,21 @@ A dedicated page that acts as a gallery displaying all inventory.
 ### 4. checkout.html 
 This page presents all the necessary information related to the checkout process including payment methods and items added to the cart.
 
-## Special Feature: Email Contact
+## Special Feature: Email Contact + Button
+At the bottom of the Index Home page, there is a button that links to the gallery displaying products. There is also a contact which links directly to my email for any questions or concerns
 
 ## Sample Screenshot
 Here is a sample image screenshot of the website:
 **Index**
-![Index](![Alt text](<Images/previewimage/Home Page.png>))
+![Index](![Alt text](<Images/previewimage/index.png>))
 **Products**
-![Products](![Alt text](<Images/previewimage/Product Page.png>))
+![Products](![Alt text](<Images/previewimage/products.png>))
 **Login**
-![Login](![Alt text](<Images/previewimage/Login Page.png>))
+![Login](![Alt text](<Images/previewimage/login.png>))
 **Registration**
-![Registration](![Alt text](<Images/previewimage/Registration Page.png>))
+![Registration](![Alt text](<Images/previewimage/registration.png>))
 **Checkout**
-![Checkout](![Alt text](<Images/previewimage/Checkout Page.png>))
+![Checkout](![Alt text](<Images/previewimage/checkout.png>))
 
 ## Acknowledgments
 
