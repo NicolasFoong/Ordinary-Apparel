@@ -41,6 +41,7 @@ Here is a sample image screenshot of the website:
 * Bootstrap v5.3
 * https://coolors.co
 * Pluralsight Professor : Remsey Mailijard
+* Year Up Peers
 * https://readme.so/editor
 * https://webresizer.com
 
