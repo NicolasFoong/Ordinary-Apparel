@@ -1,5 +1,4 @@
 # Capstone1: Ordinary Apparel
-QUICK RECAP: I had to re-do this entire project from my original. My first Website that I created crashed. I had it private and did not submit commits accordingly so when that happened, the best way to go about it was to restart from scratch. It was a very frustrating process but many lessons learned along the way. 
 
 ## Introduction
 **Ordinary Apparel** is an e-commerce website that incorporates Git, HTML,CSS, and particularly Bootstrap 5.3 when building the components. The purpose of this project is a high-end thrift website being a virtual destination where shoppers can discover and purchase top-quality, pre-owned goods, including designer clothing, accessories, and more. With a focus on quality and style, this platforma meticulously curate their inventory, ensuring that every item meets quality standards. Shoppers can explore a wide range of premium brands and luxury items, making high-end fashion and upscale lifestyle products more accessible and sustainable
